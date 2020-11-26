@@ -1,0 +1,94 @@
+
+.letrah2{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+   text-align: center;
+   position: relative;
+
+}
+.letra{
+  
+   color:black;
+text-align: center;
+ 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  position: relative;
+  
+}
+div{
+    padding-left: 100px;
+    padding-right: 30px;
+   
+}
+
+
+ol{
+ 
+    color:violet;
+}
+.Link{
+ 
+    color:violet;
+}.submi{
+    justify-items: center;
+    justify-content: center;
+}.form-signin{
+    text-align: right;
+    justify-items: right;
+   
+   }
+    
+/*.siguiente{
+    right:5000px ;
+    justify-items: center;
+background-color: yellow;
+padding: 20px;
+border-radius: black;
+border:black;
+}*/
+.siguiente{
+    justify-items: center;
+    justify-content: center;
+position: relative;
+/*right: -80%;*/
+right: 2px;
+
+}
+.logo{
+    padding:0%;
+    justify-content: center;
+    justify-items: center;
+/*    right:-7000px ;*/
+    width: 500px;
+    position: relative;
+    left:480px ;
+}
+@media screen and (max-width:480px){
+    .logo{
+        flex-direction: column;
+        width: 200px;
+        left: 5px;
+        top: 40px;
+        position: relative;
+     /*   background-color: #13CEB8;*/
+
+    }
+    .letra{
+        font-size: 40px;
+        position: relative;
+        right:20px ;
+    }
+    .letrah2{
+        right:20px ;
+        position: relative;
+    }
+    .siguiente{
+        position: relative;
+        top: 200px;
+        right: 10px;
+    }
+   
+
+
+}

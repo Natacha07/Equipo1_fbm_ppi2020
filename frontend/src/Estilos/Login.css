@@ -1,0 +1,83 @@
+form{
+    right: 500px;
+text-align: center;
+} 
+.botonlogin{
+    background-color: orange;
+    padding: 10px;
+}
+.linkolvi{
+    background-color:black;
+} h1{
+    text-align: center;
+    
+}.iniciosesion{
+    right: -500px;
+    position: relative;
+    
+}.cuadrotexto{
+    right: -700px;
+    position: relative;
+    top:2px;
+    padding: 6px;
+   
+    
+}.contraseñatex{
+    right: -700px;
+    position: relative;
+    top:2px;
+    padding: 6px;
+    position: relative;
+   
+    
+}.login{
+position: relative;
+right: -7px;
+}
+
+@media screen and (max-width:480px){
+
+  .text-{
+  font-size: 30px;
+  position: relative;
+  right: 200px;
+  padding: 20px;
+
+  }
+  .titulofelix{
+  font-size: 30px;
+  right: 30px;
+  position: relative;
+  padding: 10px;
+
+
+  }
+  .cuadro{
+   
+    position: relative;
+    background-color: orange;
+    width: 5px;
+    height: 50px;
+  }
+  
+  .cuadrodetexto{
+    right: 1000px;
+    position: relative;
+ 
+  }
+  .form-control{
+  
+  }
+  .login {
+    right: 200px;
+    position: relative;
+  font-size: 40px;
+  width: 200px;
+ 
+  top: 40px;
+  
+  }/*.iniciosesion{
+      position: relative;
+      
+  }*/
+}

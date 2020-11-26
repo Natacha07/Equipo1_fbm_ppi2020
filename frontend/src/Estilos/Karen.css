@@ -1,0 +1,33 @@
+.descripcionkaren{
+    top:200px;
+    left:-100px;
+       position: relative;
+    box-sizing: content-box; 
+    background-color: #F8E0F1;
+    padding: 40px;
+ }
+ .fotokaren{
+    top:-150px;
+    left: 900px ;
+    position: relative;
+ }
+ @media screen and (max-width:480px){
+  
+   .karen{
+      padding: 40px;
+      font-size: 30px;
+   /*  border: solid #a061ba 4px;*/
+  }
+.descripcionkaren{
+   font-size: 20px;
+   top:40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fotokaren{
+   width: 200px;
+   position: relative;
+   left: 88px;
+   bottom: 10px;
+
+}
+}
